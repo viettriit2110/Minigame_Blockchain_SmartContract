@@ -14,7 +14,7 @@ app.use(bodyParer.urlencoded({extended:false}));
 
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://minigame:tridung2705@cluster0.v6fzn.mongodb.net/minigame?retryWrites=true&w=majority',function(err){
+mongoose.connect('...',function(err){ // link mongodb
     if(err){
         console.log("mogo connected error!"+err);
     }

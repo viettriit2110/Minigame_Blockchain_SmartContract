@@ -67,7 +67,7 @@ $(document).ready(function(){
     console.log(contract_MM);
 
     // tao contract cho Infura
-    var provider = new Web3.providers.WebsocketProvider("wss://rinkeby.infura.io/ws/v3/2007ce31d66942d5ad0bc412019a4687");
+    var provider = new Web3.providers.WebsocketProvider(""); // dia chi link Infura
     var web3_infura = new Web3(provider);
     var contract_Infura = web3_infura.eth.Contract(abi,addressSM);
     console.log(contract_Infura);
